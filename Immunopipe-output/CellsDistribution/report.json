@@ -1,0 +1,142 @@
+{
+  "R123L6 - Top Clones (Lung6)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Distribution Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Lung6.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Lung6.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "R123L6 - Top Clones (Renal1)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Distribution Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal1.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal1.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "R123L6 - Top Clones (Renal2)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Distribution Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal2.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal2.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "R123L6 - Top Clones (Renal3)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Distribution Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal3.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal3.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

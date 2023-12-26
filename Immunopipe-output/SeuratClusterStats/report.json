@@ -1,0 +1,249 @@
+{
+  "Number of cells in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of cells per cluster"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/number_of_cells_in_each_cluster.bar.png"
+              }
+            ]
+          },
+          {
+            "name": "Pie Chart",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/number_of_cells_in_each_cluster.pie.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/number_of_cells_in_each_cluster_by_sample.bar.png"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/ngenes/number_of_genes_expressed_in_each_cluster.boxplot.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4b (Expression of selected genes)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "violinplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/fige4b_expression_of_selected_genes..png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4c (Trm sig)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "barplots for selected features <code>mean(Trm_sig)<\/code>, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/fige4c_trm_sig.bar.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4d (PD1 expr)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "barplots for selected features <code>mean(PDCD1)<\/code>, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/fige4d_pd1_expr.bar.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4e (Term ex)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "barplots for selected features <code>mean(Term_ex)<\/code>, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/fige4e_term_ex.bar.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4f (Tumour pct)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "barplots for selected features <code>sum(Source == 'Tumor') / sum(Source != 'Blood')<\/code>, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/fige4f_tumour_pct.bar.png"
+          }
+        ]
+      }
+    }
+  },
+  "Clone Sizes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "featureplots for selected features, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/clone_sizes..png"
+          }
+        ]
+      }
+    }
+  },
+  "Clonotype Fraction": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "barplots for selected features <code>sum(!is.na(CDR3.aa)) / n()<\/code>, by seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/features/clonotype_fraction.bar.png"
+          }
+        ]
+      }
+    }
+  },
+  "Identity": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/identity.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "Source": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Source"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/source.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "Patient": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Patient"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/patient.dim.png"
+          }
+        ]
+      }
+    }
+  },
+  "TCR Presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for TCR_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/tcr_presence.dim.png"
+          }
+        ]
+      }
+    }
+  }
+}
