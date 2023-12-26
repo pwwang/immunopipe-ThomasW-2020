@@ -28,4 +28,4 @@ The T cell clusters were not annotated with the cell types listed in the paper, 
 
 You can find the results in the `Immunopipe-output` directory.
 
-The report can be found at [https://imp-thomasw-2020.pwwang.com](https://imp-thomasw-2020.pwwang.com).
+The report can be found at [https://imp-thomasw-2020.pwwang.com/REPORTS](https://imp-thomasw-2020.pwwang.com/REPORTS).
