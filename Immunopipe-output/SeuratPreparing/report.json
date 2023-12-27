@@ -6,7 +6,7 @@
           {
             "kind": "descr",
             "name": "Filters applied",
-            "content": "<p>Cell filters: <\/p><p>Gene filters: 0<\/p>"
+            "content": ["<p>Cell filters: <\/p><p>Gene filters: 0<\/p>", "<p>Cell filters: <\/p><p>Gene filters: NULL<\/p>"]
           },
           {
             "kind": "descr",

@@ -10,11 +10,21 @@
         ],
         "tabs": [
           {
-            "name": "Distribution Plot",
+            "name": "Pie Charts",
             "contents": [
               {
                 "kind": "image",
                 "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Lung6.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Lung6",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Lung6.Lung6.heatmap.png"
               }
             ]
           },
@@ -45,11 +55,21 @@
         ],
         "tabs": [
           {
-            "name": "Distribution Plot",
+            "name": "Pie Charts",
             "contents": [
               {
                 "kind": "image",
                 "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal1.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Renal1",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal1.Renal1.heatmap.png"
               }
             ]
           },
@@ -80,11 +100,21 @@
         ],
         "tabs": [
           {
-            "name": "Distribution Plot",
+            "name": "Pie Charts",
             "contents": [
               {
                 "kind": "image",
                 "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal2.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Renal2",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal2.Renal2.heatmap.png"
               }
             ]
           },
@@ -115,11 +145,21 @@
         ],
         "tabs": [
           {
-            "name": "Distribution Plot",
+            "name": "Pie Charts",
             "contents": [
               {
                 "kind": "image",
                 "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal3.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Renal3",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top_Clones_Renal3.Renal3.heatmap.png"
               }
             ]
           },

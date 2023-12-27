@@ -4,9 +4,9 @@ Reanalysis of the data from [Wu, Thomas D., et al. 2020](https://www.nature.com/
 
 > [Wu, Thomas D., et al. "Peripheral T cell expansion predicts tumour infiltration and clinical response." Nature 579.7798 (2020): 274-278.](https://www.nature.com/articles/s41586-020-2056-8)
 
-## Preparing the data
+## Data preparation
 
-The data was downloaded from [GSE139555](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE139nnn/GSE139555/suppl/GSE139555_RAW.tar).
+The data was downloaded from [GSE139555](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139555).
 
 The metadata is also downloaded and used to build a reference Seurat object. One could also use it to map the data to it, instead of using the unsupervised clustering.
 

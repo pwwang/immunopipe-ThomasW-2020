@@ -80,17 +80,17 @@ subject = "Renal123Lung6"
 
 [CloneResidency.envs.cases."Fig2c (blood-independent)"]
 section = 'Fig2c'
-subset = 'BloodIndependent & seurat_clusters %in% c("g0", "g5", "g1", "g6", "g7")'
+subset = 'BloodIndependent & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
 subject = "seurat_clusters"
 
 [CloneResidency.envs.cases."Fig2c (blood-nonexpanded)"]
 section = 'Fig2c'
-subset = 'BloodNonExpanded & seurat_clusters %in% c("g0", "g5", "g1", "g6", "g7")'
+subset = 'BloodNonExpanded & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
 subject = "seurat_clusters"
 
 [CloneResidency.envs.cases."Fig2c (blood-expanded)"]
 section = 'Fig2c'
-subset = 'BloodExpanded & seurat_clusters %in% c("g0", "g5", "g1", "g6", "g7")'
+subset = 'BloodExpanded & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
 subject = "seurat_clusters"
 
 [CloneResidency.envs.cases."FigE2"]
