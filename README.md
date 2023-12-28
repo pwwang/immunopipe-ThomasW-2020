@@ -23,7 +23,7 @@ When separating the T cells from the other cells, `CD3G`, `CD3D`, `CD14` and `CD
 
 The T cell clusters were not annotated with the cell types listed in the paper, as we couldn't replicate the exact clustering results from the original paper.
 
-## Results/Report
+## Results/Reports
 
 
 You can find the results in the `Immunopipe-output` directory.

@@ -128,29 +128,10 @@ sigmarkers = "p_val_adj < 0.05 & avg_log2FC > 0.1"
 
 [SeuratClusterStats.envs.features."FigE4b (Expression of selected genes)"]
 features = [
-  "CD8A",
-  "GZMH",
-  "GZMK",
-  "ITGAE",
-  "ZNF683",
-  "CD69",
-  "XCL1",
-  "KLRC2",
-  "KLRC3",
-  "KLRD1",
-  "KLRC1",
-  "MALAT1",
-  "CHD1",
-  "HMGN2",
-  "KLRB1",
-  "IL7R",
-  "S100A6",
-  "RPL32",
-  "TCF7",
-  "FOS",
-  "TNFRSF4",
+  "CD8A", "GZMH", "GZMK", "ITGAE", "ZNF683", "CD69", "XCL1", "KLRC2", "KLRC3",
+  "KLRD1", "KLRC1", "MALAT1", "CHD1", "HMGN2", "KLRB1", "IL7R", "S100A6", "RPL32",
+  "TCF7", "FOS", "TNFRSF4",
 ]
-pt-size = 0
 ncol = 4
 kind = "vlnplot"
 

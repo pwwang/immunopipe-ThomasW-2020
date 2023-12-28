@@ -49,6 +49,15 @@
                 "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/number_of_cells_in_each_cluster_by_sample.bar.png"
               }
             ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/number_of_cells_in_each_cluster_by_sample.txt"
+              }
+            ]
           }
         ]
       }
