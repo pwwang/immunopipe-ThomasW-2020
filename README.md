@@ -14,7 +14,7 @@ See `prepare-data.sh` for details.
 
 ## Configuration
 
-> [!CAUTION]
+> [!NOTE]
 > This is not a replication of the original paper, primarily due to the irreproducibility of the clustering results. This is a reanalysis of the data using [`immunopipe`](https://github.com/pwwang/immunopipe), showing the potential of the pipeline similar analyses listed in the paper.
 
 The configuration can be found at `Immunopipe.config.toml`. Some settings may be different from the original paper. The analysis was done using `Seurat` v5. The integration of scRNA-seq data from individual samples were integrated by the `IntegrateLayers`, instead of `FindIntegrationAnchors` and `IntegrateData` workflow in the original paper.
