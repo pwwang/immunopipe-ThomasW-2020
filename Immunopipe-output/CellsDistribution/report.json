@@ -1,0 +1,182 @@
+{
+  "R123L6 - Top Clones (Lung6)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Pie Charts",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Lung6-.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Lung6",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Lung6-.Lung6.heatmap.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Lung6-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "R123L6 - Top Clones (Renal1)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Pie Charts",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal1-.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Renal1",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal1-.Renal1.heatmap.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal1-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "R123L6 - Top Clones (Renal2)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Pie Charts",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal2-.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Renal2",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal2-.Renal2.heatmap.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal2-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "R123L6 - Top Clones (Renal3)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Distribution of top 20 clones"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Pie Charts",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal3-.png"
+              }
+            ]
+          },
+          {
+            "name": "Heatmaps",
+            "ui": "table_of_images",
+            "contents": [
+              {
+                "descr": "Renal3",
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal3-.Renal3.heatmap.png"
+              }
+            ]
+          },
+          {
+            "name": "Distribution Table",
+            "contents": [
+              {
+                "kind": "table",
+                "data": {
+                  "nrows": 100
+                },
+                "src": "/workdir/Immunopipe-output/CellsDistribution/samples.seurat.cells_distribution/R123L6/Top-Clones-Renal3-.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
