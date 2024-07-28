@@ -1,0 +1,51 @@
+{
+  "Sample Information": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The samples used in the analysis. Each row is a sample, and columns are the meta information about the sample. This is literally the input sample information file, but the paths to the scRNA-seq and scTCR-seq data are hidden.",
+            "once": true
+          },
+          {
+            "kind": "table",
+            "pageSize": 50,
+            "data": {
+              "file": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SampleInfo/samples.txt",
+              "sep": "\t",
+              "excluded": ["TCRData", "RNAData"]
+            },
+            "src": false
+          }
+        ]
+      }
+    }
+  },
+  "Statistics": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SampleInfo/Patients per Sex.png",
+            "name": "Patients per Sex",
+            "descr": "The number of Patient"
+          },
+          {
+            "kind": "table_image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SampleInfo/Samples per Source.png",
+            "name": "Samples per Source",
+            "descr": "The number of Sample"
+          },
+          {
+            "kind": "table_image",
+            "src": "/research/bsi/projects/adhoc/s304818.Single-cell-TCR-RNA-seq/immunopipe-ThomasW-2020/Immunopipe-output/SampleInfo/Age Distribution.png",
+            "name": "Age Distribution",
+            "descr": "The distribution of Age"
+          }
+        ]
+      }
+    }
+  }
+}
