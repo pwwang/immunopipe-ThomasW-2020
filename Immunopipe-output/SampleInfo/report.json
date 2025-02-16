@@ -1,0 +1,54 @@
+{
+  "Sample Information": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The samples used in the analysis. Each row is a sample, and columns are the meta information about the sample. This is literally the input sample information file, but the paths to the scRNA-seq and scTCR-seq data are hidden.",
+            "once": true
+          },
+          {
+            "kind": "table",
+            "pageSize": 50,
+            "data": {
+              "file": "/workdir/Immunopipe-output/SampleInfo/samples.txt",
+              "sep": "\t",
+              "excluded": ["TCRData", "RNAData"]
+            },
+            "src": false
+          }
+        ]
+      }
+    }
+  },
+  "Statistics": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/workdir/Immunopipe-output/SampleInfo/Patients per Sex.png",
+            "name": "Patients per Sex",
+            "descr": "The number of Patient",
+            "download": "/workdir/Immunopipe-output/SampleInfo/Patients per Sex.pdf"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/Immunopipe-output/SampleInfo/Samples per Source.png",
+            "name": "Samples per Source",
+            "descr": "The number of Sample",
+            "download": "/workdir/Immunopipe-output/SampleInfo/Samples per Source.pdf"
+          },
+          {
+            "kind": "table_image",
+            "src": "/workdir/Immunopipe-output/SampleInfo/Age Distribution.png",
+            "name": "Age Distribution",
+            "descr": "The distribution of Age",
+            "download": "/workdir/Immunopipe-output/SampleInfo/Age Distribution.pdf"
+          }
+        ]
+      }
+    }
+  }
+}

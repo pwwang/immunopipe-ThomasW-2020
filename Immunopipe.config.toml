@@ -1,0 +1,209 @@
+[plugin_opts]
+args_dump = true
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SampleInfo.envs.stats."Patients per Sex"]
+group = "Sex"
+subset = "!duplicated(Patient)"
+on = "Patient"
+
+[SampleInfo.envs.stats."Samples per Source"]
+group = "Source"
+on = "Sample"
+
+[SampleInfo.envs.stats."Age Distribution"]
+on = "Age"
+subset = "!duplicated(Patient)"
+
+[SeuratPreparing.envs]
+ncores = 4
+use_sct = true
+
+[SeuratClusteringOfAllCells.envs.FindClusters]
+resolution = 1.6
+cache = "./.cluster_cache"
+
+
+  [TCellSelection.envs]
+  indicator_genes = [ "CD3E", "CD3D", "CD3G", "CD14", "CD68" ]
+
+[SeuratClustering.envs]
+ncores = 4
+cache = "./.cluster_cache"
+
+[SeuratClustering.envs.FindClusters]
+# expecting 16 clusters
+resolution = [0.7, 0.75, 0.71]
+
+# [SeuratMap2Ref.envs]
+# ref = "prepared-data/reference.RDS"
+
+# [SeuratMap2Ref.envs.FindTransferAnchors]
+# reference-reduction = "pca"
+
+# [SeuratMap2Ref.envs.MapQuery]
+# refdata = { celltype = "ident" }
+
+[CloneResidency.envs]
+group = "Source"
+order = [ "NAT", "Tumor" ]
+
+  [CloneResidency.envs.mutaters]
+  Renal123Lung6 = 'if_else(Patient %in% c("Renal1", "Renal2", "Renal3", "Lung6"), "Renal1-3,Lung6", NA)'
+  # Mark blood clones
+  BloodCloneType = '''case_when(
+    Source == "Blood" & !is.na(Clones) & Clones > 1 ~ "Expanded",
+    Source == "Blood" & !is.na(Clones) & Clones == 1 ~ "NonExpanded",
+    TRUE ~ NA
+  )
+  '''
+  BloodExpanded = '''
+    Patient == "Renal1" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "RB1" & .data$BloodCloneType == "Expanded"] |
+    Patient == "Renal2" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "RB2" & .data$BloodCloneType == "Expanded"] |
+    Patient == "Renal3" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "RB3" & .data$BloodCloneType == "Expanded"] |
+    Patient == "Lung6" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "LB6" & .data$BloodCloneType == "Expanded"]
+  '''
+  BloodNonExpanded = '''
+    Patient == "Renal1" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "RB1" & .data$BloodCloneType == "NonExpanded"] |
+    Patient == "Renal2" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "RB2" & .data$BloodCloneType == "NonExpanded"] |
+    Patient == "Renal3" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "RB3" & .data$BloodCloneType == "NonExpanded"] |
+    Patient == "Lung6" & CDR3.aa %in% .data$CDR3.aa[.data$Sample == "LB6" & .data$BloodCloneType == "NonExpanded"]
+  '''
+  BloodIndependent = '!BloodExpanded & !BloodNonExpanded'
+
+[CloneResidency.envs.cases.Fig1a]
+subject = "Patient"
+subset = 'Patient %in% c("Renal1", "Renal2", "Renal3", "Lung6")'
+
+[CloneResidency.envs.cases.Fig1f]
+order = [ "Blood", "Tumor" ]
+subject = "Renal123Lung6"
+
+[CloneResidency.envs.cases."Fig2c (blood-independent)"]
+section = 'Fig2c'
+subset = 'BloodIndependent & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
+subject = "seurat_clusters"
+
+[CloneResidency.envs.cases."Fig2c (blood-nonexpanded)"]
+section = 'Fig2c'
+subset = 'BloodNonExpanded & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
+subject = "seurat_clusters"
+
+[CloneResidency.envs.cases."Fig2c (blood-expanded)"]
+section = 'Fig2c'
+subset = 'BloodExpanded & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
+subject = "seurat_clusters"
+
+[CloneResidency.envs.cases."FigE2"]
+subject = "Patient"
+order = ["Blood,Tumor", "NAT,Tumor"]
+
+[CloneResidency.envs.cases."FigE5"]
+subject = "seurat_clusters"
+
+[ClusterMarkers.envs]
+ncores = 4
+# use_presto = true
+sigmarkers = "p_val_adj < 0.05 & avg_log2FC > 0.1"
+
+# [CellTypeAnnotation.envs]
+# tool = "direct"
+# cell_types = [
+#   "8.2-Tem",  # 0
+#   "4.4-FOS",  # 1
+#   "8.3a-Trm",  # 2
+#   "8.1-Teff",  # 3
+#   "4.2-RPL32",  # 4
+#   "4.1-Trm",  # 5
+#   "4.6a-Treg",  # 6
+#   "8.3b-Trm",  # 7
+#   "4.3-TCF7",  # 8
+#   "3.1-MT",  # 9
+#   "4.6b-Treg",  # 10
+#   "8.5-Mitosis",  # 11
+#   "8.4-Chrom",  # 12
+#   "8.6-KLRB1",  # 13
+#   "8.3c-Trm",  # 14
+#   "4.5-IL6ST",  # 15
+# ]
+
+[SeuratClusterStats.envs.features."FigE4b (Expression of selected genes)"]
+features = [
+  "CD8A", "GZMH", "GZMK", "ITGAE", "ZNF683", "CD69", "XCL1", "KLRC2", "KLRC3",
+  "KLRD1", "KLRC1", "MALAT1", "CHD1", "HMGN2", "KLRB1", "IL7R", "S100A6", "RPL32",
+  "TCF7", "FOS", "TNFRSF4",
+]
+ncol = 4
+kind = "vlnplot"
+
+[SeuratClusterStats.envs.features."FigE4c (Trm sig)"]
+features = "mean(Trm_sig)"
+kind = "bar"
+
+[SeuratClusterStats.envs.features."FigE4d (PD1 expr)"]
+features = "mean(PDCD1)"
+kind = "bar"
+
+[SeuratClusterStats.envs.features."FigE4e (Term ex)"]
+features = "mean(Term_ex)"
+kind = "bar"
+
+[SeuratClusterStats.envs.features."FigE4f (Tumour pct)"]
+features = "sum(Source == 'Tumor') / sum(Source != 'Blood')"
+kind = "bar"
+
+[SeuratClusterStats.envs.features."Clone Sizes"]
+features = "Clones"
+kind = "featureplot"
+devpars = { width = 1000, height = 800 }
+
+[SeuratClusterStats.envs.features."Clonotype Fraction"]
+features = "sum(!is.na(CDR3.aa)) / n()"
+kind = "barplot"
+devpars = { width = 1000, height = 600 }
+
+[SeuratClusterStats.envs.dimplots.Identity]
+label = true
+label-box = true
+repel = true
+
+[SeuratClusterStats.envs.dimplots.Source]
+subset = "Source != 'Blood'"
+group-by = "Source"
+
+[SeuratClusterStats.envs.dimplots.Patient]
+ident = "Patient"
+
+[SeuratClusterStats.envs.dimplots."TCR Presence"]
+ident = "TCR_Presence"
+order = "TCR_absent"
+cols = ["#FF000066", "gray"]
+
+[ModuleScoreCalculator.envs.modules.Trm_sig]
+features = [
+  "CA10","ITGA1","ITGAE","IL2","IL10","CXCR6","CXCL13","KCNK5",
+  "RGS1","CRTAM","DUSP6","PDCD1","IL23R",
+  "STK38","TTC16","SELL","KLF3","KLF2",
+  "NSG1", #"D4S234E" (GeneID:27065)
+  "SBK1","FAM65B","TTYH2","NPDC1","KRT72","S1PR1",
+  "SOX13","KRT73","TSPAN18","PTGDS","RAP1GAP2","CX3CR1"
+]
+
+[ModuleScoreCalculator.envs.modules.Term_ex]
+features = [
+  "CXCR5",
+  "HAVCR2" # "TIM3"
+]
+
+[CellsDistribution.envs.mutaters]
+R123L6 = 'if_else(Patient %in% c("Renal1", "Renal3", "Lung6"), Patient, NA)'
+
+[CellsDistribution.envs.cases."Top Clones"]
+cells_by = "CDR3.aa"
+group_by = "R123L6"
+cells_orderby = "desc(CloneGroupSize)"
+cells_n = 20
+each = "R123L6"
+descr = "Distribution of top 20 clones"

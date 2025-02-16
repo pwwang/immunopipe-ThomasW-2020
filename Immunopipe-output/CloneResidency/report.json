@@ -1,0 +1,1397 @@
+{
+  "Fig1a": {
+    "Clone Size Tables": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/counts/Lung6.txt",
+            "ds_name": "Lung6"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/counts/Renal1.txt",
+            "ds_name": "Renal1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/counts/Renal2.txt",
+            "ds_name": "Renal2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/counts/Renal3.txt",
+            "ds_name": "Renal3"
+          }
+        ]
+      }
+    },
+    "Residency Plots": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "Lung6 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Lung6_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Lung6_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Renal1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Renal1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Renal1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Renal2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Renal2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Renal2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Renal3 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Renal3_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/scatter/scatter_Renal3_NAT_Tumor.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (Venn Diagram)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Lung6.png",
+            "name": "Lung6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Lung6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Renal1.png",
+            "name": "Renal1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Renal1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Renal2.png",
+            "name": "Renal2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Renal2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Renal3.png",
+            "name": "Renal3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/venn/venn_Renal3.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (UpSet Plots)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Lung6.png",
+            "name": "Lung6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Lung6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Renal1.png",
+            "name": "Renal1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Renal1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Renal2.png",
+            "name": "Renal2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Renal2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Renal3.png",
+            "name": "Renal3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1a/upset/upset_Renal3.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig1f": {
+    "Clone Size Tables": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/counts/Renal1-3-Lung6.txt",
+            "ds_name": "Renal1-3,Lung6"
+          }
+        ]
+      }
+    },
+    "Residency Plots": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "Renal1-3,Lung6 (Blood - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/scatter/scatter_Renal1-3-Lung6_Blood_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/scatter/scatter_Renal1-3-Lung6_Blood_Tumor.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (Venn Diagram)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/venn/venn_Renal1-3-Lung6.png",
+            "name": "Renal1-3,Lung6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/venn/venn_Renal1-3-Lung6.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (UpSet Plots)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/upset/upset_Renal1-3-Lung6.png",
+            "name": "Renal1-3,Lung6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig1f/upset/upset_Renal1-3-Lung6.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Fig2c": {
+    "Fig2c (blood-expanded)": {
+      "Clone Size Tables": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/counts/c2.txt",
+            "ds_name": "c2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/counts/c1.txt",
+            "ds_name": "c1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/counts/c6.txt",
+            "ds_name": "c6"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/counts/c8.txt",
+            "ds_name": "c8"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/counts/c7.txt",
+            "ds_name": "c7"
+          }
+        ]
+      },
+      "Residency Plots": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "c2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c6 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c6_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c6_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c8 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c8_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c8_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c7 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c7_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/scatter/scatter_c7_NAT_Tumor.pdf"
+          }
+        ]
+      },
+      "Overlapping Clones (Venn Diagram)": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/venn/venn_c7.pdf"
+          }
+        ]
+      },
+      "Overlapping Clones (UpSet Plots)": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-expanded-/upset/upset_c7.pdf"
+          }
+        ]
+      }
+    },
+    "Fig2c (blood-independent)": {
+      "Clone Size Tables": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/counts/c2.txt",
+            "ds_name": "c2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/counts/c6.txt",
+            "ds_name": "c6"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/counts/c1.txt",
+            "ds_name": "c1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/counts/c8.txt",
+            "ds_name": "c8"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/counts/c7.txt",
+            "ds_name": "c7"
+          }
+        ]
+      },
+      "Residency Plots": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "c2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c6 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c6_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c6_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c8 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c8_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c8_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c7 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c7_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/scatter/scatter_c7_NAT_Tumor.pdf"
+          }
+        ]
+      },
+      "Overlapping Clones (Venn Diagram)": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/venn/venn_c7.pdf"
+          }
+        ]
+      },
+      "Overlapping Clones (UpSet Plots)": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-independent-/upset/upset_c7.pdf"
+          }
+        ]
+      }
+    },
+    "Fig2c (blood-nonexpanded)": {
+      "Clone Size Tables": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/counts/c7.txt",
+            "ds_name": "c7"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/counts/c1.txt",
+            "ds_name": "c1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/counts/c2.txt",
+            "ds_name": "c2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/counts/c8.txt",
+            "ds_name": "c8"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/counts/c6.txt",
+            "ds_name": "c6"
+          }
+        ]
+      },
+      "Residency Plots": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "c7 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c7_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c7_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c8 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c8_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c8_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c6 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c6_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/scatter/scatter_c6_NAT_Tumor.pdf"
+          }
+        ]
+      },
+      "Overlapping Clones (Venn Diagram)": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c7.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/venn/venn_c6.pdf"
+          }
+        ]
+      },
+      "Overlapping Clones (UpSet Plots)": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c7.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/Fig2c-blood-nonexpanded-/upset/upset_c6.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "FigE2": {
+    "Clone Size Tables": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Colon1.txt",
+            "ds_name": "Colon1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Colon2.txt",
+            "ds_name": "Colon2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Endo1.txt",
+            "ds_name": "Endo1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Endo2.txt",
+            "ds_name": "Endo2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Endo3.txt",
+            "ds_name": "Endo3"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Lung6.txt",
+            "ds_name": "Lung6"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Lung1.txt",
+            "ds_name": "Lung1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Lung2.txt",
+            "ds_name": "Lung2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Lung3.txt",
+            "ds_name": "Lung3"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Lung4.txt",
+            "ds_name": "Lung4"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Lung5.txt",
+            "ds_name": "Lung5"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Renal1.txt",
+            "ds_name": "Renal1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Renal2.txt",
+            "ds_name": "Renal2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/counts/Renal3.txt",
+            "ds_name": "Renal3"
+          }
+        ]
+      }
+    },
+    "Residency Plots": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "Colon1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Colon1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Colon1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Colon2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Colon2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Colon2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Endo1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Endo1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Endo1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Endo2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Endo2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Endo2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Endo3 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Endo3_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Endo3_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Lung6 (Blood - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung6_Blood_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung6_Blood_Tumor.pdf"
+          },
+          {
+            "name": "Lung6 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung6_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung6_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Lung1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Lung2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Lung3 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung3_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung3_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Lung4 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung4_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung4_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Lung5 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung5_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Lung5_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Renal1 (Blood - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal1_Blood_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal1_Blood_Tumor.pdf"
+          },
+          {
+            "name": "Renal1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Renal2 (Blood - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal2_Blood_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal2_Blood_Tumor.pdf"
+          },
+          {
+            "name": "Renal2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "Renal3 (Blood - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal3_Blood_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal3_Blood_Tumor.pdf"
+          },
+          {
+            "name": "Renal3 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal3_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/scatter/scatter_Renal3_NAT_Tumor.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (Venn Diagram)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Colon1.png",
+            "name": "Colon1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Colon1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Colon2.png",
+            "name": "Colon2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Colon2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Endo1.png",
+            "name": "Endo1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Endo1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Endo2.png",
+            "name": "Endo2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Endo2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Endo3.png",
+            "name": "Endo3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Endo3.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung6.png",
+            "name": "Lung6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung1.png",
+            "name": "Lung1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung2.png",
+            "name": "Lung2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung3.png",
+            "name": "Lung3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung3.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung4.png",
+            "name": "Lung4",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung4.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung5.png",
+            "name": "Lung5",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Lung5.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Renal1.png",
+            "name": "Renal1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Renal1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Renal2.png",
+            "name": "Renal2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Renal2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Renal3.png",
+            "name": "Renal3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/venn/venn_Renal3.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (UpSet Plots)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Colon1.png",
+            "name": "Colon1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Colon1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Colon2.png",
+            "name": "Colon2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Colon2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Endo1.png",
+            "name": "Endo1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Endo1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Endo2.png",
+            "name": "Endo2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Endo2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Endo3.png",
+            "name": "Endo3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Endo3.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung6.png",
+            "name": "Lung6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung1.png",
+            "name": "Lung1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung2.png",
+            "name": "Lung2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung3.png",
+            "name": "Lung3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung3.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung4.png",
+            "name": "Lung4",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung4.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung5.png",
+            "name": "Lung5",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Lung5.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Renal1.png",
+            "name": "Renal1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Renal1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Renal2.png",
+            "name": "Renal2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Renal2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Renal3.png",
+            "name": "Renal3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE2/upset/upset_Renal3.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "FigE5": {
+    "Clone Size Tables": {
+      "#": {
+        "dropdown_switcher": [
+          {
+            "ds_name": "Select a subject ..."
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c2.txt",
+            "ds_name": "c2"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c11.txt",
+            "ds_name": "c11"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c6.txt",
+            "ds_name": "c6"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c4.txt",
+            "ds_name": "c4"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c1.txt",
+            "ds_name": "c1"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c15.txt",
+            "ds_name": "c15"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c17.txt",
+            "ds_name": "c17"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c8.txt",
+            "ds_name": "c8"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c12.txt",
+            "ds_name": "c12"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c3.txt",
+            "ds_name": "c3"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c16.txt",
+            "ds_name": "c16"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c9.txt",
+            "ds_name": "c9"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c10.txt",
+            "ds_name": "c10"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c5.txt",
+            "ds_name": "c5"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c7.txt",
+            "ds_name": "c7"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c13.txt",
+            "ds_name": "c13"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c14.txt",
+            "ds_name": "c14"
+          },
+          {
+            "kind": "table",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/counts/c18.txt",
+            "ds_name": "c18"
+          }
+        ]
+      }
+    },
+    "Residency Plots": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The residency plots showing the clones of paired samples (x-axis and y-axis). The size of the dot represents the relative abundance of the clone. The color of the dot represents the type of the clone: "
+          },
+          {
+            "kind": "list",
+            "items": ["Collapsed (clones that are less abundant in the y-axis sample)", "Dual (clones that are equally abundant in both samples)", "Expanded (clones that are more abundant in the y-axis sample)", "(x-axis sample) Multiplet (clones that are only present in the x-axis sample, with multiple cells)", "(x-axis sample) Singleton (clones that are only present in the x-axis sample, with a single cell)", "(y-axis sample) Multiplet (clones that are only present in the y-axis sample, with multiple cells)", "(y-axis sample) Singleton (clones that are only present in the y-axis sample, with a single cell)"]
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "name": "c2 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c2_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c2_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c11 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c11_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c11_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c6 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c6_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c6_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c4 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c4_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c4_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c1 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c1_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c1_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c15 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c15_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c15_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c17 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c17_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c17_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c8 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c8_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c8_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c12 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c12_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c12_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c3 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c3_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c3_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c16 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c16_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c16_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c9 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c9_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c9_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c10 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c10_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c10_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c5 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c5_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c5_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c7 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c7_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c7_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c13 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c13_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c13_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c14 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c14_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c14_NAT_Tumor.pdf"
+          },
+          {
+            "name": "c18 (NAT - Tumor)",
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c18_NAT_Tumor.png",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/scatter/scatter_c18_NAT_Tumor.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (Venn Diagram)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in Venn diagrams."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c11.png",
+            "name": "c11",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c11.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c4.png",
+            "name": "c4",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c4.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c15.png",
+            "name": "c15",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c15.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c17.png",
+            "name": "c17",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c17.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c12.png",
+            "name": "c12",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c12.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c3.png",
+            "name": "c3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c3.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c16.png",
+            "name": "c16",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c16.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c9.png",
+            "name": "c9",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c9.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c10.png",
+            "name": "c10",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c10.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c5.png",
+            "name": "c5",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c5.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c7.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c13.png",
+            "name": "c13",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c13.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c14.png",
+            "name": "c14",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c14.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c18.png",
+            "name": "c18",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/venn/venn_c18.pdf"
+          }
+        ]
+      }
+    },
+    "Overlapping Clones (UpSet Plots)": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "For samples in each subject, showing the overlapping clones between samples in UpSet plots."
+          }
+        ],
+        "table_of_images:3": [
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c2.png",
+            "name": "c2",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c2.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c11.png",
+            "name": "c11",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c11.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c6.png",
+            "name": "c6",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c6.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c4.png",
+            "name": "c4",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c4.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c1.png",
+            "name": "c1",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c1.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c15.png",
+            "name": "c15",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c15.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c17.png",
+            "name": "c17",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c17.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c8.png",
+            "name": "c8",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c8.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c12.png",
+            "name": "c12",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c12.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c3.png",
+            "name": "c3",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c3.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c16.png",
+            "name": "c16",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c16.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c9.png",
+            "name": "c9",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c9.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c10.png",
+            "name": "c10",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c10.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c5.png",
+            "name": "c5",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c5.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c7.png",
+            "name": "c7",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c7.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c13.png",
+            "name": "c13",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c13.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c14.png",
+            "name": "c14",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c14.pdf"
+          },
+          {
+            "src": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c18.png",
+            "name": "c18",
+            "download": "/workdir/Immunopipe-output/CloneResidency/samples.immunarch.cloneov/FigE5/upset/upset_c18.pdf"
+          }
+        ]
+      }
+    }
+  }
+}
