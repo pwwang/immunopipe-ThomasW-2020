@@ -1,0 +1,260 @@
+# Immunopipe v2.5.3
+[plugin_opts]
+args_dump = true
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SampleInfo.envs.stats."Samples per Sex"]
+group_by = "Sex"
+subset = "!duplicated(Patient)"
+x = "Patient"
+
+[SampleInfo.envs.stats."Samples per Source"]
+group_by = "Source"
+x = "Sample"
+
+[SampleInfo.envs.stats."Age Distribution"]
+plot_type = "histogram"
+x = "Age"
+subset = "!duplicated(Patient)"
+
+[SeuratPreparing.envs]
+cache = "./.cache"
+ncores = 4
+use_sct = true
+
+[SeuratClusteringOfAllCells.envs.FindClusters]
+resolution = 1.6
+cache = "./.cache"
+
+[ClusterMarkersOfAllCells.envs]
+cache = "./.cache"
+
+[TOrBCellSelection.envs]
+indicator_genes = [ "CD3E", "CD3D", "CD3G", "CD14", "CD68" ]
+
+[SeuratClustering.envs]
+ncores = 4
+cache = "./.cache"
+
+[SeuratClustering.envs.FindClusters]
+# expecting 16 clusters
+resolution = [0.7, 0.75, 0.71]
+
+[SeuratClusterStats.envs]
+cache = "./.cache"
+
+[SeuratClusterStats.envs.mutaters]
+One = '1'
+Renal1_Top10Clones = 'top(10, within = Patient == "Renal1", output_within = TRUE)'
+Renal2_Top10Clones = 'top(10, within = Patient == "Renal2", output_within = TRUE)'
+Renal3_Top10Clones = 'top(10, within = Patient == "Renal3", output_within = TRUE)'
+Lung6_Top10Clones = 'top(10, within = Patient == "Lung6", output_within = TRUE)'
+
+[ClonalStats.envs]
+cache = "./.cache"
+
+[ClonalStats.envs.mutaters]
+# Mark blood clones
+BloodExpanded = '''
+  or(
+    gt("RB1", 1, group_by = "Sample", output = "bool"),
+    gt("RB2", 1, group_by = "Sample", output = "bool"),
+    gt("RB3", 1, group_by = "Sample", output = "bool"),
+    gt("LB6", 1, group_by = "Sample", output = "bool")
+  )
+'''
+BloodNonExpanded = '''
+  or(
+    eq("RB1", 1, group_by = "Sample", output = "bool"),
+    eq("RB2", 1, group_by = "Sample", output = "bool"),
+    eq("RB3", 1, group_by = "Sample", output = "bool"),
+    eq("LB6", 1, group_by = "Sample", output = "bool")
+  )
+'''
+BloodIndependent = '''
+  or(
+    eq("RB1", 0, group_by = "Sample", output = "bool"),
+    eq("RB2", 0, group_by = "Sample", output = "bool"),
+    eq("RB3", 0, group_by = "Sample", output = "bool"),
+    eq("LB6", 0, group_by = "Sample", output = "bool")
+  )
+'''
+
+[ClonalStats.envs.cases.Fig1a]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "NAT", "Tumor" ]
+split_by = "Patient"
+subset = 'Patient %in% c("Renal1", "Renal2", "Renal3", "Lung6")'
+
+[ClonalStats.envs.cases.Fig1f]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "Blood", "Tumor" ]
+subset = 'Patient %in% c("Renal1", "Renal2", "Renal3", "Lung6")'
+
+[ClonalStats.envs.cases."Fig2c (blood-independent)"]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "NAT", "Tumor" ]
+subset = 'BloodIndependent & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
+split_by = "seurat_clusters"
+
+[ClonalStats.envs.cases."Fig2c (blood-nonexpanded)"]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "NAT", "Tumor" ]
+subset = 'BloodNonExpanded & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
+split_by = "seurat_clusters"
+
+[ClonalStats.envs.cases."Fig2c (blood-expanded)"]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "NAT", "Tumor" ]
+subset = 'BloodExpanded & seurat_clusters %in% c("c1", "c6", "c2", "c7", "c8")'
+split_by = "seurat_clusters"
+
+[ClonalStats.envs.cases."FigE2 (Tumor vs Blood)"]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "Blood", "Tumor" ]
+split_by = "Patient"
+
+[ClonalStats.envs.cases."FigE2 (NAT vs Tumor)"]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "NAT", "Tumor" ]
+split_by = "Patient"
+
+[ClonalStats.envs.cases."FigE5"]
+viz_type = "residency"
+group_by = "Source"
+groups = [ "NAT", "Tumor" ]
+split_by = "seurat_clusters"
+
+[ClusterMarkers.envs]
+cache = "./.cache"
+ncores = 4
+sigmarkers = "p_val_adj < 0.05 & avg_log2FC > 0.1"
+
+# [CellTypeAnnotation.envs]
+# tool = "direct"
+# cell_types = [
+#   "8.2-Tem",  # 0
+#   "4.4-FOS",  # 1
+#   "8.3a-Trm",  # 2
+#   "8.1-Teff",  # 3
+#   "4.2-RPL32",  # 4
+#   "4.1-Trm",  # 5
+#   "4.6a-Treg",  # 6
+#   "8.3b-Trm",  # 7
+#   "4.3-TCF7",  # 8
+#   "3.1-MT",  # 9
+#   "4.6b-Treg",  # 10
+#   "8.5-Mitosis",  # 11
+#   "8.4-Chrom",  # 12
+#   "8.6-KLRB1",  # 13
+#   "8.3c-Trm",  # 14
+#   "4.5-IL6ST",  # 15
+# ]
+
+[SeuratClusterStats.envs.features."FigE4b (Expression of selected genes)"]
+plot_type = "violin"
+features = [
+  "CD8A", "GZMH", "GZMK", "ITGAE", "ZNF683", "CD69", "XCL1", "KLRC2", "KLRC3",
+  "KLRD1", "KLRC1", "MALAT1", "CHD1", "HMGN2", "KLRB1", "IL7R", "S100A6", "RPL32",
+  "TCF7", "FOS", "TNFRSF4",
+]
+facet_ncol = 4
+
+[SeuratClusterStats.envs.features."FigE4c (Trm sig)"]
+features = "Trm_sig"
+plot_type = "violin"
+add_stat = "mean"
+
+[SeuratClusterStats.envs.features."FigE4d (PD1 expr)"]
+features = "PDCD1"
+plot_type = "violin"
+add_stat = "mean"
+
+[SeuratClusterStats.envs.features."FigE4e (Term ex)"]
+features = "Term_ex"
+plot_type = "violin"
+add_stat = "mean"
+
+[SeuratClusterStats.envs.stats."FigE4f (Tumour pct)"]
+agg = "sum(Source == 'Tumor') / sum(Source != 'Blood')"
+plot_type = "bar"
+
+[SeuratClusterStats.envs.features."Clone Sizes"]
+features = "clonalFrequency"
+plot_type = "dim"
+devpars = { width = 1000, height = 800 }
+
+[SeuratClusterStats.envs.stats."Clonotype Fraction"]
+agg = "sum(!is.na(CTaa)) / n()"
+plot_type = "bar"
+devpars = { width = 1000, height = 600 }
+
+[SeuratClusterStats.envs.dimplots.Identity]
+label = true
+
+[SeuratClusterStats.envs.dimplots.Source]
+subset = "Source != 'Blood'"
+group_by = "Source"
+
+[SeuratClusterStats.envs.dimplots.Patient]
+group_by = "Patient"
+
+[ModuleScoreCalculator.envs.modules.Trm_sig]
+features = [
+  "CA10","ITGA1","ITGAE","IL2","IL10","CXCR6","CXCL13","KCNK5",
+  "RGS1","CRTAM","DUSP6","PDCD1","IL23R",
+  "STK38","TTC16","SELL","KLF3","KLF2",
+  "NSG1", #"D4S234E" (GeneID:27065)
+  "SBK1","FAM65B","TTYH2","NPDC1","KRT72","S1PR1",
+  "SOX13","KRT73","TSPAN18","PTGDS","RAP1GAP2","CX3CR1"
+]
+
+[ModuleScoreCalculator.envs.modules.Term_ex]
+features = [
+  "CXCR5",
+  "HAVCR2" # "TIM3"
+]
+
+[SeuratClusterStats.envs.stats."Distribution of Top 10 Clones (Renal1)"]
+plot_type = "pies"
+group_by = "Patient"
+rows_name = "Clones"
+rows_by = "Renal1_Top10Clones"
+values_by = "One"
+rows_orderby = "-sum(clonalFrequency)"
+
+[SeuratClusterStats.envs.stats."Distribution of Top 10 Clones (Renal2)"]
+plot_type = "pies"
+group_by = "Patient"
+rows_name = "Clones"
+rows_by = "Renal2_Top10Clones"
+values_by = "One"
+rows_orderby = "-sum(clonalFrequency)"
+devpars = { height = 4000 }
+
+[SeuratClusterStats.envs.stats."Distribution of Top 10 Clones (Renal3)"]
+plot_type = "pies"
+group_by = "Patient"
+rows_name = "Clones"
+rows_by = "Renal3_Top10Clones"
+values_by = "One"
+rows_orderby = "-sum(clonalFrequency)"
+devpars = { height = 4000 }
+
+[SeuratClusterStats.envs.stats."Distribution of Top 10 Clones (Lung6)"]
+plot_type = "pies"
+group_by = "Patient"
+rows_name = "Clones"
+rows_by = "Lung6_Top10Clones"
+values_by = "One"
+rows_orderby = "-sum(clonalFrequency)"
+devpars = { height = 4000 }

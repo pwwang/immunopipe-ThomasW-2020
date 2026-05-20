@@ -1,0 +1,321 @@
+{
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "VDJ Presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for VDJ_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/VDJ-Presence.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/VDJ-Presence.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Identity": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Identity.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Identity.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Source": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Source"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Source.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Source.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Patient": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for Patient"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Patient.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Patient.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-Bar-Chart.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Sample. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Bar-Chart.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4f (Tumour pct)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/FigE4f-Tumour-pct.png"
+          }
+        ]
+      }
+    }
+  },
+  "Clonotype Fraction": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'seurat_clusters'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Clonotype-Fraction.png"
+          }
+        ]
+      }
+    }
+  },
+  "Distribution of Top 10 Clones (Renal1)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The pies plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Patient. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Distribution-of-Top-10-Clones-Renal1.png"
+          }
+        ]
+      }
+    }
+  },
+  "Distribution of Top 10 Clones (Renal2)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The pies plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Patient. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Distribution-of-Top-10-Clones-Renal2.png"
+          }
+        ]
+      }
+    }
+  },
+  "Distribution of Top 10 Clones (Renal3)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The pies plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Patient. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Distribution-of-Top-10-Clones-Renal3.png"
+          }
+        ]
+      }
+    }
+  },
+  "Distribution of Top 10 Clones (Lung6)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The pies plot shows the distribution of cells across categories defined by 'seurat_clusters', grouped by Patient. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Distribution-of-Top-10-Clones-Lung6.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes expressed in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4b (Expression of selected genes)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (CD8A, GZMH, GZMK, ITGAE, ZNF683, CD69, XCL1, KLRC2, KLRC3, KLRD1, KLRC1, MALAT1, CHD1, HMGN2, KLRB1, IL7R, S100A6, RPL32, TCF7, FOS, TNFRSF4) across cells. The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/features/FigE4b-Expression-of-selected-genes.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4c (Trm sig)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (Trm_sig) across cells. The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/features/FigE4c-Trm-sig.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4d (PD1 expr)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (PDCD1) across cells. The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/features/FigE4d-PD1-expr.png"
+          }
+        ]
+      }
+    }
+  },
+  "FigE4e (Term ex)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (Term_ex) across cells. The plot type is 'violin', showing the distribution of feature values by the grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/features/FigE4e-Term-ex.png"
+          }
+        ]
+      }
+    }
+  },
+  "Clone Sizes": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (clonalFrequency) across cells. The plot type is 'dim', displaying the features on a dimensional reduction embedding. The reduction used is \"umap\", using dimensions 1,2"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/features/Clone-Sizes.png"
+          }
+        ]
+      }
+    }
+  }
+}

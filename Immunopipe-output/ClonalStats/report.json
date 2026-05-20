@@ -1,0 +1,168 @@
+{
+  "Clonal Volume": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Volume.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of unique clones across Sample(s). The x-axis represents the different Sample(s), while the y-axis denotes the number of unique clones. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Volume"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Abundance": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Abundance.png",
+            "download": [],
+            "descr": "The abundance plot illustrates the number of clones at different abundance levels. The x-axis represents the abundance levels (different sizes of clones), while the y-axis denotes the number of clones at each level. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Abundance"
+          }
+        ]
+      }
+    }
+  },
+  "CDR3 Length": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/CDR3-Length.png",
+            "download": [],
+            "descr": "This bar graph illustrates the distribution of the length of the CDR3 sequences. The x-axis represents the different lengths of the CDR3 sequences, while the y-axis denotes the number of corresponding sequences. both chain(s) was/were counted.",
+            "name": "CDR3 Length"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Diversity": {
+    "#": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Diversity.png",
+            "download": [],
+            "descr": "This bar graph illustrates the diversity of the clones across different groups. The x-axis represents the groups, while the y-axis denotes the diversity of the clones.  The diversity is calculated using the Shannon index, a statistic that estimates the diversity of a biological community by considering both species richness and evenness. The index is calculated as the negative sum of the product of the proportion of each species and the logarithm of that proportion. If practically all abundance is concentrated to one type, and the other types are very rare (even if there are many of them), Shannon entropy approaches zero. When there is only one type in the dataset, Shannon entropy exactly equals zero. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Clonal Diversity"
+          }
+        ]
+      }
+    }
+  },
+  "Clonal Residency": {
+    "Fig1a": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/Fig1a.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Fig1a"
+          }
+        ]
+      }
+    },
+    "Fig1f": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/Fig1f.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Fig1f"
+          }
+        ]
+      }
+    },
+    "Fig2c (blood.independent)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/Fig2c-blood-independent.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Fig2c (blood.independent)"
+          }
+        ]
+      }
+    },
+    "Fig2c (blood.nonexpanded)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/Fig2c-blood-nonexpanded.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Fig2c (blood.nonexpanded)"
+          }
+        ]
+      }
+    },
+    "Fig2c (blood.expanded)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/Fig2c-blood-expanded.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "Fig2c (blood.expanded)"
+          }
+        ]
+      }
+    },
+    "FigE2 (Tumor vs Blood)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/FigE2-Tumor-vs-Blood.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "FigE2 (Tumor vs Blood)"
+          }
+        ]
+      }
+    },
+    "FigE2 (NAT vs Tumor)": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/FigE2-NAT-vs-Tumor.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "FigE2 (NAT vs Tumor)"
+          }
+        ]
+      }
+    },
+    "FigE5": {
+      "#": {
+        "table_of_images:2": [
+          {
+            "kind": "table_image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/ClonalStats/samples.scRep.clonalstats/Clonal-Residency/FigE5.png",
+            "download": [],
+            "descr": "This scatter plot illustrates the residency of clones across different groups (axes). The x-axis represents the first group, while the y-axis denotes the second group. The size of the points represents the size of the clones. For the shared clones, the size of the points represents the max size of the clones in the groups. The color of the points represents the category of the clones. &#039;Singlet&#039; are the clones with a single cell; &#039;Expanded&#039; are the clones with multiple cells; &#039;Dual&#039; are the clones with cells in both groups; &#039;Dual (g1 &gt; g2)&#039; are the clones with cells in both groups and more cells in the first group; &#039;Dual (g1 &lt; g2)&#039; are the clones with cells in both groups and more cells in the second group; and &#039;Dual (Equal)&#039; are the clones with cells in both groups and equal cells in both groups. The pearson correlation was calculated based on the size of the shared clones and p-value is also shown in the subtitle. The clones are identified by aa and both chain(s) was/were used.",
+            "name": "FigE5"
+          }
+        ]
+      }
+    }
+  }
+}
